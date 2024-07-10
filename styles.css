@@ -13,14 +13,14 @@ header {
 }
 
 header h1 {
-    font-family: 'Lobster', cursive; /* Setze die Schriftart für die Überschrift */
-    font-size: 3em; /* Mache die Überschrift größer */
-    color: white; /* Setze die Textfarbe auf weiß */
-    border: 2px solid black; /* Füge eine schwarze Umrandung hinzu */
-    display: inline-block; /* Umgehe das Block-Layout und füge Padding hinzu */
-    padding: 0.2em 0.5em; /* Füge Padding hinzu, um den Abstand zwischen Text und Rand zu vergrößern */
-    background-color: #eeec7a; /* Setze die Hintergrundfarbe auf die gleiche Farbe wie das Header */
-    border-radius: 8px; /* Runde die Ecken des Randes ab */
+    font-family: 'Lobster', cursive;
+    font-size: 3em; 
+    color: white; 
+    border: 2px solid black; 
+    display: inline-block; 
+    padding: 0.2em 0.5em; 
+    background-color: #eeec7a; 
+    border-radius: 8px; 
 }
 
 nav ul {
@@ -108,4 +108,16 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+/* Neues CSS für den Map-Container */
+#map-container {
+    width: 100%;
+    max-width: 900px; /* Maximale Breite */
+    margin: 0 auto; /* Zentrieren */
+}
+
+#map-container iframe {
+    width: 100%;
+    height: 900px; /* Feste Höhe */
 }
